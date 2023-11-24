@@ -19,6 +19,13 @@
      <PreferenceCategory
         android:title="@string/general_category">
 
+        <!-- Battery Style -->
+        <Preference
+         android:key="statusbar_battery"
+         android:title="@string/status_bar_battery_category_title"
+         android:summary="Select Your fav battery icon"
+         android:fragment="com.horizon.lab.fragments.Battery"/>
+
         <!-- Network Traffic -->
         <Preference
             android:key="network_traffic_state"
